@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VENTAS DE BALONES</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+  <!-- NAVBAR -->
+  <header class="bg-red-900 text-white shadow-lg sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto flex justify-between items-center p-4">
+      <h1 class="text-2xl font-bold">BALONES DE BAJA Y MEDIA Y ALTA CALIDAD"</h1>
+      
+      <nav class="space-x-6">
+        <a href="#inicio" class="hover:text-yellow-300">Inicio</a>
+        <a href="#nosotros" class="hover:text-yellow-300">Nosotros</a>
+        <a href="#oferta" class="hover:text-yellow-300">Oferta</a>
+        <a href="#contacto" class="hover:text-yellow-300">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+
+  <section id="inicio" class="relative bg-cover bg-center h-[80vh]" style="background-image: url('img/FONDO.webp');">
+    <div class="bg-black/50 w-full h-full flex flex-col justify-center items-center text-center text-white px-6">
+      <h2 class="text-4xl md:text-6xl font-bold animate__animated animate__fadeInDown">EXPERIENCIA DEPORTIVA</h2>
+      <p class="mt-4 text-lg md:text-2xl animate__animated animate__fadeInUp">VEN CON TUS AMIGOS FAMILIARES Y VISITAS NUESTRA TIENDA.</p>
+      <a href="#contacto" class="mt-6 px-6 py-3 bg-yellow-400 text-black font-semibold rounded-full shadow-lg hover:bg-yellow-500 transition transform hover:scale-105 animate__animated animate__zoomIn">Contáctanos</a>
+    </div>
+  </section>
+
+  <!-- NOSOTROS -->
+  <section id="nosotros" class="py-16 max-w-6xl mx-auto px-6">
+    <div class="grid md:grid-cols-2 gap-10 items-center">
+      <img src="img/TIENDA.png" alt="Nosotros" class="rounded-2xl shadow-lg animate__animated animate__fadeInLeft">
+      <div class="animate__animated animate__fadeInRight">
+        <h3 class="text-3xl font-bold mb-4">NUESTRA TIENDA SE ENCUENTRA</h3>
+        <p class="text-lg mb-4">ENTRE LA AVENIDA SIKER Y MURILLOS AL LADO DE VAL-MAN.</p>
+        <p class="text-lg">CALIDAD ALTA DE 
+          ADIDAD
+          NIKE
+          PUMA
+          MOLTEN.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- OFERTA ACADEMICA -->
+  <section id="oferta" class="bg-gray-200 py-16">
+    <div class="max-w-6xl mx-auto px-6 text-center">
+      <h3 class="text-3xl font-bold mb-10">LAS MEJORES MARCAS DE BALOS ORIGINALES</h3>
+      <div class="grid md:grid-cols-4 gap-8">
+        <div class="bg-white p-6 rounded-xl shadow-lg hover:scale-105 transition transform">
+          <img src="img/adidas.webp" alt="Inicial" class="mx-auto mb-4">
+          <h4 class="font-semibold text-xl mb-2">ADIDAS</h4>
+          <p class="text-gray-600">ultiliza poliuretan de la alta calidad o se espuma SPEEDESHELL.</p>
+        </div>
+        <div class="bg-white p-6 rounded-xl shadow-lg hover:scale-105 transition transform">
+          <img src="img/nike.webp" alt="Primaria" class="mx-auto mb-4">
+          <h4 class="font-semibold text-xl mb-2">NIKE</h4>
+          <p class="text-gray-600">NIKE incorporas en 3D o microsurcos a menudo con tecnologia AerowSculpt o ACC.</p>
+        </div>
+        <div class="bg-white p-6 rounded-xl shadow-lg hover:scale-105 transition transform">
+          <img src="img/puma.jpg" alt="Secundaria" class="mx-auto mb-4">
+          <h4 class="font-semibold text-xl mb-2">PUMA</h4>
+          <p class="text-gray-600">PUMA recistencia ala asorcion de agua, lo que mantiene el peso consientemente sin importal las condiciones del clima.</p>
+        </div>
+        <div class="bg-white p-6 rounded-xl shadow-lg hover:scale-105 transition transform">
+          <img src="img/molten.webp" alt="Técnico" class="mx-auto mb-4">
+          <h4 class="font-semibold text-xl mb-2">MOLTEN</h4>
+          <p class="text-gray-600">MOLTEN de primera calidad muy durable resistente al desgaste por el uso en todotipo de superficies.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section id="contacto" class="py-16 max-w-6xl mx-auto px-6">
+    <h3 class="text-3xl font-bold text-center mb-10">Contacto</h3>
+    <div class="grid md:grid-cols-2 gap-10 items-center">
+      <div>
+        
+        <p class="mb-4"><strong>Teléfono:</strong> +591 72119850</p>
+        <p class="mb-4"><strong>Dirección:</strong> AVENIDA SILKER Y MURILLO AL LADO DE VAL-MAR San Ignacio de Velasco </p>
+        <p>También puedes seguirnos en nuestras redes sociales para más información.</p>
+      </div>
+      <form class="bg-white shadow-lg rounded-xl p-6 space-y-4">
+        <input type="text" placeholder="Nombre" class="w-full border p-3 rounded-lg">
+        <input type="email" placeholder="Correo" class="w-full border p-3 rounded-lg">
+        <textarea placeholder="Mensaje" class="w-full border p-3 rounded-lg h-32"></textarea>
+        <button class="w-full bg-red-900 text-white py-3 rounded-lg font-semibold hover:bg-red-800 transition">Enviar</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-red-900 text-white text-center py-6">
+    <p>&copy; NO TE QUEDES CON GANAS DE LA EXPERIENCIA FUTBOLERA CON TUS AMIGOS</p>
+  </footer>
+
+</body>
+</html>
